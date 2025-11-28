@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rajrappa Palaces</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/b5202a0756.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <nav class="navbar">
+      <div class="logo-container">
+        <h1 class="logo">RAJRAPPA PALACES</h1>
+      </div>
+      <div class="nav-content">
+        <ul id="nav">
+          <li><a class="active" href="#section-1">Home</a></li>
+          <li><a href="#rooms-section">Rooms</a></li>
+          <li><a href="#bookings">Booking</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <section class="hero">
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1>Experience Luxury Like Never Before</h1>
+          <h2>Welcome to RAJRAPPA PALACES</h2>
+          <br />
+          <p>Your comfort is our priority. Book your stay today!</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="rooms-section" id="rooms-section">
+      <h3>Our Rooms</h3>
+      <div class="rooms" id="rooms">
+        <div class="room-card">
+          <img
+            src="https://img.freepik.com/free-photo/pillow-bed_74190-4499.jpg"
+            alt="Single Room"
+          />
+          <div class="room-card-footer">
+            <h4>Single Room</h4>
+            <p>Cozy room for solo travelers.</p>
+            <button>Book Now</button>
+          </div>
+        </div>
+        <div class="room-card">
+          <img
+            src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
+            alt="Double Room"
+          />
+          <div class="room-card-footer">
+            <h4>Double Room</h4>
+            <p>Spacious room for two guests.</p>
+            <button>Book Now</button>
+          </div>
+        </div>
+        <div class="room-card">
+          <img
+            src="https://img.freepik.com/free-photo/interior-modern-comfortable-hotel-room_1232-1822.jpg"
+            alt="Suite Room"
+          />
+
+          <div class="room-card-footer">
+            <h4>Suite Room</h4>
+            <p>Luxurious suite with premium amenities.</p>
+            <button>Book Now</button>
+          </div>
+        </div>
+        <div class="room-card">
+          <img
+            src="https://img.freepik.com/premium-photo/happy-family-with-children-sofa_394555-2302.jpg"
+            alt="Family Room"
+          />
+          <div class="room-card-footer">
+            <h4>Family Room</h4>
+            <p>
+              Spacious family room with extra beds and family-friendly
+              amenities.
+            </p>
+            <button>Book Now</button>
+          </div>
+        </div>
+        <div class="room-card">
+          <img
+            src="https://img.freepik.com/free-photo/cafe-terrace-with-turquoise-sofas-yellow-pillows_140725-2484.jpg"
+            alt="Deluxe Room"
+          />
+          <div class="room-card-footer">
+            <h4>Deluxe Room</h4>
+            <p>Deluxe room with premium services and scenic views.</p>
+            <button>Book Now</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="booking" id="bookings">
+      <h3>Book For Room</h3>
+      <form>
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Email" required />
+        <select required>
+          <option value="">Room Type</option>
+          <option>Single</option>
+          <option>Double</option>
+          <option>Suite</option>
+          <option>Family</option>
+          <option>Deluxe</option>
+        </select>
+        <input type="date" required />
+        <input
+          type="number"
+          placeholder="No. of Guests"
+          required
+          min="1"
+          max="199"
+        />
+        <button type="submit">Book Now</button>
+      </form>
+    </section>
+
+    <section class="section-services" id="services">
+      <div class="section-services-header">
+        <h2>Our Services</h2>
+      </div>
+      <div class="section-services-grid">
+        <div class="section-service-card">
+          <img src="Rajrappa temple A.jpg" alt="" />
+          <div class="section-service-footer">
+            <button class="magnet-target">Vip Darshan</button>
+          </div>
+        </div>
+        <div class="section-service-card">
+          <img src="REATRENT A.jpg" alt="" />
+          <div class="section-service-footer">
+            <button class="magnet-target">Restaurant</button>
+          </div>
+        </div>
+        <div class="section-service-card">
+          <img src="PARK A.png" alt="" />
+          <div class="section-service-footer">
+            <button class="magnet-target">PlayGround</button>
+          </div>
+        </div>
+        <div class="section-service-card">
+          <img src="swming pools A.jpg" alt="" />
+          <div class="section-service-footer">
+            <button class="magnet-target">Swimming Pool</button>
+          </div>
+        </div>
+        <div class="section-service-card">
+          <img src="LOUNDRY A.jpg" alt="" />
+          <div class="section-service-footer">
+            <button class="magnet-target">Laundry</button>
+          </div>
+        </div>
+        <div class="section-service-card">
+          <img src="24..7sA.jpg" alt="" />
+          <div class="section-service-footer">
+            <button class="magnet-target">24/7 Support</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="section-contact"
+      id="contact"
+      role="region"
+      aria-label="Contact"
+    >
+      <div class="footer-container container grid grid-4">
+        <div class="footer-col contact-info">
+          <h4 class="footer-title">Contact</h4>
+          <address class="contact-address">
+            Rajrappa, Ramgarh<br />
+            Jharkhand, India - 825101
+          </address>
+          <p class="contact-phone">
+            <strong>Phone:</strong>
+            <a href="tel:+91010134567564">+91 010134567564</a>
+          </p>
+          <p class="contact-email">
+            <strong>Email:</strong>
+            <a href="mailto:info@rajrappapalaces.com"
+              >info@rajrappapalaces.com</a
+            >
+          </p>
+
+          <div class="follow">
+            <h5 class="footer-subtitle">Follow us</h5>
+            <div class="social-links">
+              <a class="social-link" href="https://www.facebook.com/share/1CqFqFC4m3/" aria-label="Facebook"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a class="social-link" href="https://x.com/AbhayKu64556410?t=6QhRYU28cwlILBs5aftlUQ&s=09" aria-label="Twitter"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a class="social-link" href="#" aria-label="YouTube"
+                ><i class="fab fa-youtube"></i
+              ></a>
+              <a class="social-link" href="https://www.instagram.com/abhay_kushwaha_03?igsh=cWVudjh5ZWJ2cXVo" aria-label="Instagram"
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-col footer-links">
+          <h4 class="footer-title">Company</h4>
+          <ul class="link-list">
+            <li><a class="link" href="#">About Us</a></li>
+            <li><a class="link" href="#">Privacy Policy</a></li>
+            <li><a class="link" href="#">Terms &amp; Conditions</a></li>
+            <li><a class="link" href="#contact">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col footer-support">
+          <h4 class="footer-title">Support</h4>
+          <ul class="link-list">
+            <li><a class="link" href="#">Account</a></li>
+            **99656
+
+            <li><a class="link" href="#">Sign In</a></li>
+            <li><a class="link" href="#">Help</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col app-pay">
+          <h4 class="footer-title">Install App</h4>
+          <p class="muted">From App Store or Google Play</p>
+          <div class="app-badges">
+            <img class="app-badge" src="app.jpg" alt="App Store" />
+            <img class="app-badge" src="play.jpg" alt="Google Play" />
+          </div>
+          <p class="muted">Secured Payment Gateways</p>
+          <img class="payment-icons" src="pay.png" alt="Payment options" />
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <b><p style="color: rgb(236, 68, 68)">Temporary Unabale !!! Please Contact Offline Using Contact Details </p></b>
+      <p>&copy; 2025 Rajrappa Palaces. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
